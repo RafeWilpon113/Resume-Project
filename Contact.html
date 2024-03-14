@@ -22,11 +22,25 @@
 
         <!-- Main -->
         <article>
-        <h1>Contacts:</h1>
+        <h1>Contact Form</h1>
+<br>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
 
-            <p>
-                
-            </p>
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="name@example.com">
+
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="Subject">
+
+    <label for="body">Body</label>
+    <textarea id="body" name="body" placeholder="Your message here.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
         </article>
 
         <footer>
