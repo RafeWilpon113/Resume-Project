@@ -95,7 +95,11 @@ End CSS Reset
       font-weight: 200;
       font-size: 30px;
     }
-    header a{
+    nav {
+      display: flex;
+      justify-content: right;
+    }
+    nav a{
       text-decoration: none;
        float: right;
        display: block;
@@ -105,15 +109,14 @@ End CSS Reset
        background-color: rgb(145, 134, 197)
    
     }
-    header a.active {
+    nav a.active {
       background-color: rgb(91, 117, 165);
     }
-    header a:hover {
+    nav a:hover {
        background-color: rgb(120, 110, 170);
     }
-    header, footer, article {
-      padding-left: 12.5%;
-      padding-right: 12.5%;
+    header, footer, article, nav {
+      padding: 0 12.5% 0 12.5%;
     }
     footer{
    font-size: 12px;
