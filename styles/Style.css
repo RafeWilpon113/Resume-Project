@@ -190,7 +190,7 @@ End CSS Reset
     }
     
     input[type=submit] {
-      background-color: #04AA6D;
+      background-color: rgb(83, 93, 180);
       color: white;
       padding: 12px 20px;
       border: none;
@@ -198,7 +198,7 @@ End CSS Reset
     }
     
     input[type=submit]:hover {
-      background-color: #45a049;
+      background-color: rgb(55, 74, 124);
     }
     
     .container {
@@ -227,6 +227,7 @@ End CSS Reset
   
   .content {
       background-color: antiquewhite;
+      border-radius: 8px;
       padding: 10px;
   }
   @media screen and (max-width: 800px) {
